@@ -1,5 +1,7 @@
 # Project Description
 
+Quick Overview Deployed at: https://quiet-bubblegum-a79bb1.netlify.app/
+
 ## Introduction
 
 We were tasked with creating a multiple-choice question dataset from Chapters 2, 3, 4 of James et al. "An Introduction to Statistical Learning with Applications in Python". Following this, we used the dataset to train and finetune Atlas models to understand the interplay between dataset, parameters, and the choice of the model. Atlas models are essentially a two-stage pipeline that does text retrieval and language generation. Both stages of this pipeline use pre-trained transformer models to incorporate relevant background knowledge into coherent natural language responses. The key factor in Atlas models is how it separates retrieval and generation, enabling it to scale to large datasets while still using sequence-to-sequence processes to perform language tasks. In our case, we used already existing models from Atlas and then trained and fine-tuned them. These steps covered a whole pipeline of an NLP model starting from dataset annotation, dataset splitting, preliminary tests on different models, training, and finally experimentation through tuning.
