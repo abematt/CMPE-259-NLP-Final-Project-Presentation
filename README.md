@@ -7,6 +7,7 @@ We were tasked with creating a multiple-choice question dataset from Chapters 2,
 ## Dataset
 
 The dataset was split into train-validation-test as 75%-10%-15%. The dataset had 400 samples after a combination of manual and scripted processes of data extraction from the textbook. The training dataset was further split into sample sizes of 15, 30, 45, 75, 105, 150, 180, 225, and 300. These samples were then used iteratively as the tuning experiments were performed.
+![](image5.png)
 
 ## Experiments
 
@@ -36,6 +37,10 @@ For both Base and Large models, dataset sizes were varied across experiments to 
 **Total # of Experiments performed: 68**
 
 ### Base vs Large model
+![](image2.png)
+![](image3.png)
+![](image4.png)
+![](image1.png)
 
 **Base vs Large model with parameter tuning**
 
